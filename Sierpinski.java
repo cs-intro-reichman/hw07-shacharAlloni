@@ -16,8 +16,10 @@ public class Sierpinski {
 
 		double x3 = 0.5;
 		double y3 = 0.866;
-
-		sierpinski(n, x1, x2, x3, y1, y2, y3);
+		
+		for (int i = 1; i <= n; i++) {
+			sierpinski(i, x1, x2, x3, y1, y2, y3);
+		}
 	}
 	
 	// Does the actual drawing, recursively.
